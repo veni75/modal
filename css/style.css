@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+/* MODAL */
+.modal {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(128, 128, 128);
+    display: none;
+    left: 0;
+    max-width: 100%;
+    padding: 2rem;
+    position: absolute;
+    top: 30%;
+}
+
+@media only screen and (min-width: 560px) {
+    .modal {
+        left: 20%;
+        max-width: 50%;
+    }
+}
+
+i {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+}
+
+.modal__header {
+    padding: 0 2rem;
+}
+
+.modal__main {
+    padding: 0 2rem 3rem 2rem;
+}
+
+footer {    
+    bottom: 2rem;
+    position: absolute;
+    right: 2rem;
+}
+
+button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.modal__okey {
+    background-color: #56e456;
+    border: 1px solid #56e456;
+    color: #ffffff;
+}
+
+.modal__cancel {
+    background-color: #f04a4a;
+    border: 1px solid #f04a4a;
+    color: #ffffff;
+}
