@@ -2,18 +2,18 @@ const button = document.querySelector(".button__modal");
 const body = document.querySelector('body');
 const modal = document.querySelector('.modal');
 button.addEventListener('click', function () {
+    modal.setAttribute("class", "modal animation");
     body.setAttribute("style", "background-color: rgba(128, 128, 128, 0.5)");
     modal.setAttribute("style", "display: block");
     modal.focus();
-    /*modal.setAttribute("style", "transform: translate(0px, 15vw)");
-    modal.setAttribute("style", "-ms-transform: translate(0px, 15vw)");    
-    modal.setAttribute("style", "transition: all 5s ease-in-out");  */    
 })
 
 const backToMain = () => {
-    body.setAttribute("style", "background-color: none");
-    modal.setAttribute("style", "display: none");
-    
+    modal.setAttribute("class", "modal animation2");
+    setTimeout(function () {
+        body.setAttribute("style", "background-color: none");
+        modal.setAttribute("style", "display: none");
+    }, 3000);
 }
 
 const icon = document.querySelector("i");
