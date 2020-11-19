@@ -16,7 +16,7 @@
 
 @media only screen and (min-width: 560px) {
     .modal {
-        left: 20%;
+        left: 25%;
         max-width: 50%;
     }
 }
@@ -60,7 +60,7 @@ button {
 
 /* ANIMATION */
 .animation {
-    animation: animated_div 3s ease;    
+    animation: animated_div 1s ease;    
 }
 
 @keyframes animated_div {
@@ -76,7 +76,7 @@ button {
 }
 
 .animation2 {
-    animation: animated_div2 3s ease;    
+    animation: animated_div2 1s ease;    
 }
 
 @keyframes animated_div2 {
