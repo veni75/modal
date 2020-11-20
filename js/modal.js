@@ -8,6 +8,7 @@ button.addEventListener('click', function () {
     modal.setAttribute("class", "modal animation");
     body.setAttribute("style", "background-color: rgba(128, 128, 128, 0.5)");
     modal.setAttribute("style", "display: block");
+    button.setAttribute("tabindex", "-1");
     modal.focus();
 })
 
